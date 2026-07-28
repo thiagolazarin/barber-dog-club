@@ -5,7 +5,7 @@ export function FinalCTA() {
   return (
     <section className="bg-white pb-16 sm:pb-20">
       <div className="container-page">
-        <div className="overflow-hidden rounded-[2rem] bg-[linear-gradient(135deg,_#115e64,_#188f92_55%,_#f5a623)] p-8 text-white shadow-soft sm:p-10 lg:p-14">
+        <div className="overflow-hidden rounded-[2rem] bg-[linear-gradient(135deg,_#17100c,_#4a2412_48%,_#e67918)] p-8 text-white shadow-soft sm:p-10 lg:p-14">
           <div className="max-w-3xl">
             <PawPrint aria-hidden="true" className="mb-5 size-10 text-honey-100" />
             <h2 className="text-3xl font-black leading-tight sm:text-5xl">Vamos cuidar do seu melhor amigo?</h2>

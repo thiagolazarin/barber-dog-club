@@ -10,7 +10,7 @@ const highlights = [
 export function Hero() {
   return (
     <section id="inicio" className="relative overflow-hidden pt-28 sm:pt-32">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_#d7f2f0,_transparent_34%),linear-gradient(135deg,_#fafaf9_0%,_#eefafa_52%,_#fff7df_100%)]" />
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_#ffe8bd,_transparent_34%),linear-gradient(135deg,_#fffaf4_0%,_#fff3df_52%,_#fff8ef_100%)]" />
       <div className="container-page grid min-h-[calc(100vh-5rem)] items-center gap-10 pb-14 lg:grid-cols-[1fr_0.92fr] lg:pb-18">
         <div className="reveal max-w-3xl">
           <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-petroleum-100 bg-white/80 px-4 py-2 text-sm font-bold text-petroleum-700 shadow-sm">

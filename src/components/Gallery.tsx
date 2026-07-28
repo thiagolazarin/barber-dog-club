@@ -24,7 +24,7 @@ function GalleryCard({ title, src }: { title: string; src: string }) {
           onError={() => setHasImage(false)}
         />
       ) : (
-        <div className="flex size-full flex-col items-center justify-center bg-[linear-gradient(135deg,_#eefafa,_#fff7df)] p-6 text-center">
+        <div className="flex size-full flex-col items-center justify-center bg-[linear-gradient(135deg,_#fff3d7,_#fffaf4)] p-6 text-center">
           <ImageIcon aria-hidden="true" className="size-9 text-petroleum-600" />
           <figcaption className="mt-4 text-lg font-black text-petroleum-900">{title}</figcaption>
           <p className="mt-2 max-w-52 text-sm leading-6 text-slate-600">Espaço preparado para fotos reais dos atendimentos.</p>

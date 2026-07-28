@@ -5,25 +5,25 @@ export default {
     extend: {
       colors: {
         petroleum: {
-          50: "#eefafa",
-          100: "#d7f2f0",
-          500: "#188f92",
-          600: "#10777d",
-          700: "#115e64",
-          800: "#0f4c52",
-          900: "#12383c"
+          50: "#fff7ed",
+          100: "#fed7aa",
+          500: "#f59e0b",
+          600: "#d97706",
+          700: "#9a4f0f",
+          800: "#4a2412",
+          900: "#17100c"
         },
         honey: {
-          100: "#fff0c8",
-          300: "#ffd36f",
-          500: "#f5a623"
+          100: "#fff3d7",
+          300: "#f4b63f",
+          500: "#e67918"
         }
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "Segoe UI", "sans-serif"]
       },
       boxShadow: {
-        soft: "0 18px 50px rgba(17, 94, 100, 0.13)"
+        soft: "0 18px 50px rgba(23, 16, 12, 0.16)"
       }
     }
   },
