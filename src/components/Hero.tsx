@@ -18,7 +18,7 @@ export function Hero() {
             Banho e tosa em Campinas/SP
           </p>
           <h1 className="max-w-4xl text-4xl font-black leading-[1.05] text-slate-950 sm:text-5xl lg:text-6xl">
-            Cuidado, carinho e atenção que o seu pet merece
+            Todo carinho que seu pet merece!
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700 sm:text-xl">
             Banho e tosa com atendimento individualizado para cães de todos os portes, gatos e animais exóticos em
