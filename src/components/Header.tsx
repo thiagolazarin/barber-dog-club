@@ -1,4 +1,4 @@
-import { Menu, MessageCircle, PawPrint, X } from "lucide-react";
+import { Menu, MessageCircle, X } from "lucide-react";
 import { useState } from "react";
 import { BUSINESS, whatsappUrl } from "../config/business";
 
@@ -23,8 +23,12 @@ export function Header() {
           onClick={closeMenu}
           className="flex items-center gap-3 rounded-full text-petroleum-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-honey-300"
         >
-          <span className="flex size-11 items-center justify-center rounded-full bg-petroleum-600 text-white shadow-sm">
-            <PawPrint aria-hidden="true" className="size-6" />
+          <span className="flex size-12 items-center justify-center overflow-hidden rounded-full bg-petroleum-900 shadow-sm ring-2 ring-honey-300">
+            <img
+              src="/images/logo_barber.png"
+              alt="Logo Barber Dog Club"
+              className="size-full object-cover"
+            />
           </span>
           <span className="text-lg font-black tracking-normal sm:text-xl">{BUSINESS.name}</span>
         </a>

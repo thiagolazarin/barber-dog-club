@@ -52,8 +52,8 @@ export function Hero() {
         <div className="reveal relative">
           <div className="overflow-hidden rounded-[2rem] border-8 border-white bg-petroleum-50 shadow-soft">
             <img
-              src="/images/hero-pet.jpg"
-              alt="Profissional cuidando carinhosamente de um cachorro em ambiente de banho e tosa"
+              src="/images/dog2.jpg"
+              alt="Cachorro atendido pelo Barber Dog Club usando bandana colorida"
               className="aspect-[4/5] w-full object-cover sm:aspect-[5/4] lg:aspect-[4/5]"
             />
           </div>

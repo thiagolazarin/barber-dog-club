@@ -1,4 +1,4 @@
-import { Instagram, MapPin, MessageCircle, PawPrint, Phone } from "lucide-react";
+import { Instagram, MapPin, MessageCircle, Phone } from "lucide-react";
 import { BUSINESS, mapsUrl, phoneUrl, whatsappUrl } from "../config/business";
 
 const quickLinks = [
@@ -17,8 +17,12 @@ export function Footer() {
       <div className="container-page grid gap-8 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="flex size-11 items-center justify-center rounded-full bg-white text-petroleum-700">
-              <PawPrint aria-hidden="true" className="size-6" />
+            <span className="flex size-14 items-center justify-center overflow-hidden rounded-full bg-white ring-2 ring-honey-300">
+              <img
+                src="/images/logo_barber.png"
+                alt="Logo Barber Dog Club"
+                className="size-full object-cover"
+              />
             </span>
             <span className="text-xl font-black">{BUSINESS.name}</span>
           </div>
